@@ -1,0 +1,8 @@
+backend/secrets.properties
+backend/target/
+frontend/node_modules/
+frontend/.env
+.idea/
+.vscode/frontend/dist/
+*.log
+.env
