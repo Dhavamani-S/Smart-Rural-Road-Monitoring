@@ -1,0 +1,78 @@
+@media print {
+  /* Hide interactive elements, navigation, and sidebar */
+  .sidebar,
+  .sidebar-backdrop,
+  .top-navbar,
+  .page-actions,
+  .btn,
+  button,
+  .tab-navigation,
+  .pagination,
+  .filter-bar,
+  .toast-container,
+  .modal-overlay,
+  .menu-toggle-btn {
+    display: none !important;
+  }
+
+  /* Reset layout structure for clean page flow */
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  .app-layout {
+    display: block !important;
+    background: transparent !important;
+  }
+
+  .main-wrapper {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+
+  .page-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .card {
+    border: 1px solid #d1d5db !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    margin-bottom: 16pt;
+    padding: 12pt;
+    background: #ffffff !important;
+  }
+
+  .data-table {
+    border: 1px solid #d1d5db !important;
+    font-size: 9pt !important;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 6pt 8pt !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    color: #111827 !important;
+  }
+
+  .data-table th {
+    background: #f3f4f6 !important;
+  }
+
+  .print-header {
+    display: block !important;
+    margin-bottom: 20pt;
+    border-bottom: 2pt solid #1f2937;
+    padding-bottom: 10pt;
+  }
+
+  /* Avoid page break inside charts or cards */
+  .avoid-break {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

@@ -1,0 +1,107 @@
+:root {
+  /* Type Scale - Inter font (Nothing smaller than 13px) */
+  --font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  --text-xs: 0.8125rem;   /* 13px - absolute minimum */
+  --text-sm: 0.875rem;    /* 14px */
+  --text-md: 0.9375rem;   /* 15px */
+  --text-base: 1rem;      /* 16px - base */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.25rem;     /* 20px */
+  --text-2xl: 1.5rem;     /* 24px */
+  --text-3xl: 1.75rem;    /* 28px */
+  --text-4xl: 2rem;       /* 32px */
+
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* 8px Spacing Scale */
+  --space-0-5: 4px;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+
+  /* Color Palette - Graphite, White, Green accent */
+  --bg-main: #f4f6f8;
+  --bg-card: #ffffff;
+  --bg-subtle: #f8fafc;
+  --bg-sidebar: #1f2a37;
+  --bg-sidebar-hover: #374151;
+  --bg-sidebar-active: #111827;
+
+  /* Accent Colors */
+  --accent-primary: #2fa36b;
+  --accent-primary-hover: #268757;
+  --accent-primary-subtle: #eaf6f0;
+  --accent-secondary: #0284c7;
+
+  /* Text Colors - WCAG AA compliant */
+  --text-primary: #111827;
+  --text-secondary: #374151;
+  --text-muted: #4b5563;
+  --text-inverse: #ffffff;
+  --text-sidebar: #f3f4f6;
+  --text-sidebar-muted: #9ca3af;
+
+  /* Borders */
+  --border-color: #e5e7eb;
+  --border-subtle: #f1f5f9;
+  --border-focus: #2fa36b;
+
+  /* Status Colors */
+  --status-green: #1f9d63;
+  --status-green-bg: #dcfce7;
+  --status-green-border: #86efac;
+
+  --status-amber: #d98a0b;
+  --status-amber-bg: #fef3c7;
+  --status-amber-border: #fcd34d;
+
+  --status-red: #d64545;
+  --status-red-bg: #fee2e2;
+  --status-red-border: #fca5a5;
+
+  --status-blue: #2f6fd1;
+  --status-blue-bg: #dbeafe;
+  --status-blue-border: #93c5fd;
+
+  --status-gray: #4b5563;
+  --status-gray-bg: #f1f5f9;
+  --status-gray-border: #cbd5e1;
+
+  /* Layout Dimensions */
+  --sidebar-width: 270px;
+  --navbar-height: 64px;
+  --max-content-width: 1440px;
+
+  /* Component Heights */
+  --btn-height: 44px;
+  --btn-height-sm: 36px;
+  --btn-height-mobile: 48px;
+  --input-height: 46px;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Card Specs */
+  --card-padding: 24px;
+  --card-radius: 12px;
+  --card-gap: 24px;
+  --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+  --shadow-sm: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(16, 24, 40, 0.08), 0 2px 4px -2px rgba(16, 24, 40, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(16, 24, 40, 0.1), 0 4px 6px -4px rgba(16, 24, 40, 0.05);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
